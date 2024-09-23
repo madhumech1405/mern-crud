@@ -11,7 +11,7 @@ const [editId,setEditId]=useState(-1)
 //edit
 const [editTitle,setEditTitle]=useState("")
 const[editDescrption,setEditDescrption]=useState("")
-const apiUrl="http://localhost:8000"
+const apiUrl="https://mern-crud-1-lr9e.onrender.com"
    const handleSumit=()=>{
     if(title.trim()!== " "&&descrption.trim()!== " "){
       fetch(apiUrl+"/todo",{
